@@ -1,0 +1,169 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: FiraSans-Light;
+  src: url(../dist/fonts/FiraSans-Light.ttf);
+}
+
+@font-face {
+  font-family: FiraSans-Medium;
+  src: url(../dist/fonts/FiraSans-Medium.ttf);
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #1e1e1e;
+}
+
+h1 {
+  color: #ecf0f1;
+  font-family: FiraSans-Medium;
+  font-size: 16px;
+  margin-bottom: 28px;
+}
+
+h2 {
+  color: #3498db;
+  font-family: FiraSans-Medium;
+  font-size: 24px;
+  margin-bottom: 20px;
+  margin-top: 26px;
+}
+
+p {
+  color: #ecf0f1;
+  font-family: FiraSans-Light;
+  font-size: 14px;
+}
+
+.entry {
+  height: 100vh;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  width: 440px;
+}
+
+.content {
+  background: #323232;
+  border-radius: 10px;
+  padding: 20px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  width: 100%;
+}
+
+.map-js {
+  height: 400px;
+  position: relative;
+}
+
+.button-start {
+  left: 162px;
+  position: absolute;
+  top: 162px;
+}
+
+.button {
+  background: #27ae60;
+  border-radius: 50%;
+  border: 0;
+  color: #1e1e1e;
+  font-family: FiraSans-Medium;
+  font-size: 14px;
+  font-weight: bold;
+  height: 76px;
+  width: 76px;
+}
+
+.button:hover {
+  background: #27ae60;
+  cursor: pointer;
+}
+
+.hidden {
+  display: none;
+}
+
+.pos-1 {
+  left: 0px;
+  position: absolute;
+  top: 324px;
+}
+.pos-2 {
+  left: 162px;
+  position: absolute;
+  top: 0px;
+}
+.pos-3 {
+  left: 324px;
+  position: absolute;
+  top: 324px;
+}
+.pos-4 {
+  left: 0px;
+  position: absolute;
+  top: 162px;
+}
+.pos-5 {
+  left: 324px;
+  position: absolute;
+  top: 162px;
+}
+.pos-6 {
+  left: 0px;
+  position: absolute;
+  top: 324px;
+}
+
+.leaderboard-entry {
+  display: flex;
+  padding: 16px;
+  width: 100%;
+}
+
+.leaderboard-rank {
+  width: 60px;
+}
+.leaderboard-player {
+  width: 100%;
+}
+
+.submit {
+  background: #27ae60;
+  border-radius: 5px;
+  border: 0;
+  color: #1e1e1e;
+  display: block;
+  font-family: FiraSans-Medium;
+  font-size: 14px;
+  font-weight: bold;
+  margin-top: 20px;
+  padding: 7px 15px;
+}
+
+.input {
+  background: #ecf0f1;
+  border-radius: 3px;
+  border: 0;
+  font-family: FiraSans-Medium;
+  font-size: 18px;
+  padding: 10px 13px;
+  width: 275px;
+}
+
+.submit:hover {
+  background: #27ae60;
+  cursor: pointer;
+}
